@@ -35,3 +35,13 @@
    35  c:/users/darya/desktop/my-repo
    36  cd /c/users/darya/desktop/my-repo
    37  history > command_list.csv
+   38  git add .
+   39  pwd
+   40  git status
+   41  git init
+   42  git status
+   43  git add .
+   44  git rm --cached HW_10
+   45  git rm --cached -f HW_10
+   46  git commit -m "Remove HW_10 directory from index"
+   47  history > command_list.csv
