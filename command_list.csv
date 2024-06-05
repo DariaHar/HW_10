@@ -1,5 +1,5 @@
-    1  git config --global user.name "Daria Harkusha"
-    2  git config --global user.email "daryagarkusha@gmail.com"
+"    1  git config --global user.name ""Daria Harkusha"""
+"    2  git config --global user.email ""daryagarkusha@gmail.com"""
     3  git clone https://github.com/Daria Harkusha/HW_10.git
     4  git clone https://github.com/DariaHar/HW_10.git
     5  cd HW_10
@@ -7,22 +7,22 @@
     7  nano .gitignore
     8  git status
     9  git add .
-   10  git commit -m "Add text_ignore.txt to .gitignore and create text_ignore.txt"
+"   10  git commit -m ""Add text_ignore.txt to .gitignore and create text_ignore.txt"""
    11  toch main_test.txt
    12  cd HW_10
    13  touch main_test.txt
    14  git add .
-   15  git commit -m "Add main_test.txt"
+"   15  git commit -m ""Add main_test.txt"""
    16  git push origin main
    17  git checkout -b develop
    18  touch develop_test.txt
    19  git add .
-   20  git commit -m "Add develop_test.txt"
+"   20  git commit -m ""Add develop_test.txt"""
    21  nano develop_test.txt
    22  git status
    23  git add .
    24  git add develop_test.txt
-   25  git commit -m "Update develop_test.txt"
+"   25  git commit -m ""Update develop_test.txt"""
    26  git checkout main
    27  git merge develop
    28  git log
@@ -43,10 +43,10 @@
    43  git add .
    44  git rm --cached HW_10
    45  git rm --cached -f HW_10
-   46  git commit -m "Remove HW_10 directory from index"
+"   46  git commit -m ""Remove HW_10 directory from index"""
    47  history > command_list.csv
    48  git add .
-   49  git commit -m "Add command_list.csv file"
+"   49  git commit -m ""Add command_list.csv file"""
    50  git push
    51  git remote and origin https://github.com/DariaHar/HW_10.git
    52  git remote add origin https://github.com/DariaHar/HW_10.git
@@ -54,7 +54,7 @@
    54  git ls-remote https://github.com/DariaHar/HW_10.git
    55  ls
    56  git add command_list.csv
-   57  git commit -m "Add command_list.csv file"
+"   57  git commit -m ""Add command_list.csv file"""
    58  git status
    59  git ls-files
    60  git push origin master
@@ -65,55 +65,55 @@
    65  git branch
    66  git rm --cached command_list.csv
    67  git add command_list.csv
-   68  git commit -m "Re-add command_list.csv file"
+"   68  git commit -m ""Re-add command_list.csv file"""
    69  git push origin master
    70  cd /c/users/darya/desktop/my-repo
    71  git status
-   72  git commit -m "Re-add command_list.csv file"
+"   72  git commit -m ""Re-add command_list.csv file"""
    73  git push origin master
    74  ді
    75  ls
    76  git add command_list.csv
-   77  git commit -m "Add command_list.csv file"
+"   77  git commit -m ""Add command_list.csv file"""
    78  git push origin master
    79  git status
    80  ls
    81  git add command_list.csv
-   82  git commit -m "Re-add command_list.csv file"
+"   82  git commit -m ""Re-add command_list.csv file"""
    83  git push origin master
    84  ls
    85  git add command_list.csv
-   86  git commit -m "Re-add command-list.csv file"
+"   86  git commit -m ""Re-add command-list.csv file"""
    87  git push origin master
    88  git rm --cached command_list.csv
    89  get add command_list
    90  get add command_list.csv
    91  git add command_list
    92  git add command_list.csv
-   93  git commit -m "Re-add command_list.csv file"
+"   93  git commit -m ""Re-add command_list.csv file"""
    94  ls -1
-   95  git rm --cached "command_list.csv"
-   96  git add "command_list.csv"
-   97  git commit -m "Re-add command_list.csv file"
+"   95  git rm --cached ""command_list.csv"""
+"   96  git add ""command_list.csv"""
+"   97  git commit -m ""Re-add command_list.csv file"""
    98  git push origin master
    99  mv command_list command_list.csv
   100  ls -1
   101  git add command_list
   102  git add command_list.csv
-  103  git commit -m "Add command_list"
+"  103  git commit -m ""Add command_list"""
   104  git push origin master
   105  ls -1
   106  ls -1
-  107  git rm --cached "command list.csv"
-  108  git rm --cached "command_list.csv"
-  109  git add "command_list.csv"
-  110  git commit -m "Add command_list.csv file"
+"  107  git rm --cached ""command list.csv"""
+"  108  git rm --cached ""command_list.csv"""
+"  109  git add ""command_list.csv"""
+"  110  git commit -m ""Add command_list.csv file"""
   111  git push origin master
   112  cd/c/users/darya/desktop/my-repo
   113  cd/c:/Users/darya/Desktop/my-repo
   114  cd/c/Users/darya/Desktop/my-repo
   115  cd /c/Users/darya/Desktop/my-repo
-  116  git rm "command_list.csv"
-  117  git commit -m "Remove command_list.csv file"
+"  116  git rm ""command_list.csv"""
+"  117  git commit -m ""Remove command_list.csv file"""
   118  git push origin master
   119  history > command_list.csv
